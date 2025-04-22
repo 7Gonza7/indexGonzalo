@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentacion de temas</title>
+  <link rel="stylesheet" href="assets/css/styleindex.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>Proyectos</h1>
+      <p>Gonzalo Carvajal - Universidad Católica de Temuco</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="proyectos">
+      <h2>Proyectos Destacados</h2>
+      <div class="grid-proyectos">
+        <div class="proyecto">
+          <h3>Calculadora</h3>
+          <p>Calculadora básica con JS.</p>
+          <a href="trabajos/indexCalculadora.html">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+          <h3>portafolio Gonzalo</h3>
+          <p>es un breve portafolio con proyectos subidos al git hub</p>
+          <a href="trabajos/indexPortafolio.html">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+          <h3>Contador Numerico</h3>
+          <p>contador en JavaScript.</p>
+          <a href="trabajos/indexContador.html">Ver proyecto</a>
+        </div>
+        <div class="proyecto">
+          <h3>Formulario</h3>
+          <p>Formulario con validación JS.</p>
+          <a href="trabajos/indexFormulario.html">Ver proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacto">
+      <h2>Contáctame</h2>
+      <form id="formulario-contacto">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <input type="email" id="email" placeholder="Tu correo" required>
+        <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="mensaje-estado"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Gonzalo Carvajal - derechos protegidos</p>
+  </footer>
+
+  <script src="assets/js/scriptindex.js"></script>
+</body>
+</html>

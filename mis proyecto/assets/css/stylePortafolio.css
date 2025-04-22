@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('../../img/Sin-titulo-1_21.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(238, 231, 231); 
+}
+
+h1 {
+    background-color: rgba(219, 29, 130, 0.708);
+    color: rgb(200, 197, 197);
+    padding: 10px;
+    font-weight: bold;
+}
+
+p {
+ 
+    text-align: justify;
+    font-weight: normal;
+    font-size: 18px;
+    color: #f5f5f5;  
+    background-color: rgba(140, 41, 151, 0.763); 
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 800px; 
+    margin: 20px auto; 
+    line-height: 1.6; 
+    text-shadow: 1px 1px 3px rgba(7, 7, 7, 0.8); 
+    
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(48, 158, 189, 0.9); 
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(251, 251, 251, 0.3); 
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+.contenedor-noticias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.noticia {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.521); 
+    color: black; 
+}
+
+.noticia img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.noticia h2, .noticia h3, .noticia h4 {
+    font-size: 20px;
+    color: #333;
+}
+
+.noticia p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.noticia a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.noticia a:hover {
+    background-color: darkblue;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  .contacto button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
