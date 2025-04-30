@@ -1,0 +1,9 @@
+/* Aquí centré el contenido en el medio de la pantalla tanto horizontal como vertical */
+body {
+    display: flex;
+    justify-content: center;  /* Para centrar horizontalmente */
+    align-items: center;      /* Para centrar verticalmente */
+    height: 100vh;            /* Ocupa toda la altura de la ventana */
+    background-color: #f8f9fa; /* Puse un color claro de fondo para que se vea más limpio */
+  }
+  
