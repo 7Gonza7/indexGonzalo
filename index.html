@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gonzalo Carvajal | Landing Page</title>
+  <link rel="stylesheet" href="../../assets/css/LandingPage/style.css" />
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Gonzalo Carvajal</h1>
+      <p>Diseñador Web | Seguridad de Software | Soluciones a Medida</p>
+      <a href="#contacto" class="btn">Contáctame</a>
+    </div>
+  </header>
+
+  <!-- Servicios -->
+  <section class="servicios">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="../../assets/img/LandingPage/why_does_a_software_company_need_a_professional_services_team_0.jpg" alt="Desarrollo Web">
+        <h3>Desarrollo Web</h3>
+        <p>Sitios web modernos, rápidos y adaptables a todos los dispositivos.</p>
+      </div>
+      <div class="card">
+        <img src="../../assets/img/LandingPage/web-development-team.webp" alt="Tiendas Online">
+        <h3>Tiendas Online</h3>
+        <p>Comercio electrónico funcional y personalizado para tu negocio.</p>
+      </div>
+      <div class="card">
+        <img src="../../assets/img/LandingPage/meeting-portrait-web-design-teamwork-laptop-with-project-planning-coworking-chat-people-research-brainstorming-website-with-happiness-support-creative-collaboration-office_590464-363661.avif" alt="Aplicaciones Web">
+        <h3>Aplicaciones Web</h3>
+        <p>Aplicaciones interactivas que mejoran la productividad de tu empresa.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section class="form-section" id="contacto">
+    <h2>¿Listo para comenzar?</h2>
+    <form id="formulario">
+      <input type="text" id="nombre" placeholder="Nombre completo" required />
+      <input type="email" id="correo" placeholder="Correo electrónico" required />
+      <input type="tel" id="telefono" placeholder="+56 9 9876 5432" />
+      <select id="servicio">
+        <option value="">Selecciona un servicio</option>
+        <option value="web">Desarrollo Web</option>
+        <option value="tienda">Tienda Online</option>
+        <option value="app">Aplicación Web</option>
+      </select>
+      <textarea id="mensaje" placeholder="Cuéntame sobre tu proyecto..." rows="4"></textarea>
+      <button type="submit">Enviar mensaje</button>
+      <p id="msg-formulario"></p>
+    </form>
+  </section>
+    <footer class="footer">
+    <p>&copy; 2025 - Gonzalo Carvajal - Todos los derechos reservados</p>
+  </footer>
+
+
+  <script src="../../assets/js/LandingPage/script.js"></script>
+</body>
+</html>
